@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=League+Spartan:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+}
+#primeiro {
+    background-color: #262626;
+}
+#primeiro {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60px; 
+}
+.flex-item {
+    margin: 0 50px; 
+}
+header#segundo{
+    height: 91px;
+    background-color: #1E1E1E;
+}
+#segundo a{
+    color: white;
+    padding-left: 1000px;
+}
+img{
+    width: 1297px;
+}
+#sec h1{
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90px;
+    font-size: 45px;
+}
+.container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.quadrado {
+    background-color: #F6DFC9;
+    border: 1px solid #F6DFC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 95px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    border-radius: 15px;
+    flex-direction: column;
+}
+
+.material-symbols-outlined {
+    font-size: 36px;
+}
+.cont {
+    font-family: "League Spartan", sans-serif;
+    background-color: #D8B09C;
+    display: flex;
+    align-items: flex-start; 
+    padding: 0;
+    margin: 50px 0 20px;
+}
+.cont .text-container {
+   flex: 1;
+   margin-right: 10px;
+   padding: 65px;
+}
+.cont h1 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0;
+}
+.cont img {
+    height: 350px;
+    width: 500px;
+    object-fit: cover; 
+    flex-shrink: 0;
+}
+.contai {
+    font-family: "League Spartan", sans-serif;
+    margin: 35px 0;
+    background-color: #F6DFC9;
+    display: flex;
+    align-items: flex-start; 
+    padding: 0;
+    height: 350px;
+}
+
+.contai img {
+    height: 350px;
+    width: 450px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.contai .text {
+    display: flex;
+    flex-direction: column; 
+    margin-left: 50px; 
+    padding: 60px;
+}
+
+.contai h1 {
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    margin: 0; 
+    font-size: 45px;
+    padding: 20px;
+}
+
+.contai p {
+    margin-top: 10px; 
+}
+#area-imagens h1{
+    font-family: "Italiana", sans-serif;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60px;
+    font-size: 45px;
+}
+#area-imagens img{
+    margin: 40px;
+    height: 200px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+#register {
+    background-color: #EDDFD2;
+}
+#register h1{
+    font-family: "Italiana", sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+#register input {
+    padding: 5px;
+    border-radius: 10px;
+    width: 250px;
+    margin: 5px;
+}
+.registration button {
+    position;
+    background-color: #D8B09C;
+    margin: 20px;
+    border-radius: 10px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.registration {
+    text-align:right;
+}
+.icon-link { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.material-symbols-outlined {
+    font-size: 36px;
+}
+#footer {
+    background-color: #1E1E1E;
+    color: white;
+}
